@@ -1256,7 +1256,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form method="post" class="php-email-form" onsubmit="sendEmail(); reset(); return false;">
+            <form action="https://abdellahriffi.github.io/toOussama/#contact" method="post" class="php-email-form" onsubmit="sendEmail(); reset(); return false;">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -1573,9 +1573,10 @@
   <script>
     function sendEmail() {
       Email.send({
-        Host: "smtp.gmail.com",
-        Username: "abdellahriff8@gmail.com",
-        Password: "53BEF83740E52BE2B8FB0336F5B5293E673D",
+        ScureToken: "769354f1-6fa5-4758-98ef-d376f3424ad5",
+        // Host: "smtp.gmail.com",
+        // Username: "abdellahriff8@gmail.com",
+        // Password: "53BEF83740E52BE2B8FB0336F5B5293E673D",
         To: 'abdellahriff7@gmail.com',
         From: document.getElementById("email").value,
         Subject: "New Contact Form Enquiry",
